@@ -26,13 +26,17 @@ git clone https://github.com/ughrima/VisionX.git
 cd VisionX
 ````
 
-### Install requirements
-* Android Studio (latest stable version recommended) - Meeracat was used here.
-* Android NDK (Native Development Kit) — Needed to build and run native C++ code on Android.
-`Android Studio > Tools > SDK Manager > SDK Tools > Check "NDK (Side by side)"  and "CMake".`
-* OpenCV for Android (Native) — The app uses OpenCV’s native libraries for image processing.
-`This repo already includes prebuilt libopencv_java4.so files for different architectures inside app/src/main/jniLibs/. No extra download needed.`
+### Install Prerequisites
 
+* **Android Studio** (latest stable version recommended)
+* **NDK + CMake**
+  * Open Android Studio
+  * Go to `Tools > SDK Manager > SDK Tools`
+  * Check  `NDK (Side by side)` and `CMake`
+* **OpenCV**
+  * `libopencv_java4.so` files are included under `app/src/main/jniLibs/`
+  * No extra download needed.
+  
 ### 3️⃣ Build and run
 
 1. Open the folder in Android Studio
@@ -49,10 +53,10 @@ cd VisionX
 
 ```mermaid
 graph TD;
-A[Camera2 API gets frames] --> B[Send frame to native code via JNI]
-B --> C[OpenCV applies filters]
-C --> D[Return frame to Java and display via GLSurfaceView]
-D --> E[Shaders apply fast color effects]
+A[Camera2 API gets frames] ==> B[Send frame to native code via JNI]
+B  ==> C[OpenCV applies filters]
+C ==>  D[Return frame to Java and display via GLSurfaceView]
+D ==>  E[Shaders apply fast color effects]
 
 ```
 
