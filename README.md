@@ -16,7 +16,6 @@
 
 
 ## Screenshots
-Here’s VisionX in action:
 
 | Raw Mode | Grayscale | Canny Edge Detection |
 |----------|-----------|---------------------|
