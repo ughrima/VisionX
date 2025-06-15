@@ -28,7 +28,7 @@
 
 
 ## Live Demo 
-
+[Download demo.mp4](demo.mp4)
 
 ## Setup
 
