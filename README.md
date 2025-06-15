@@ -73,4 +73,9 @@ D ==>  E[Shaders apply fast color effects]
 * `vertex.glsl` — Shader for positioning (where things are drawn).
 * `activity_main.xml` — Defines where button, FPS text, camera view go on screen.
 
+ ## Deployment
+
+[Download VisionX APK from GitHub Releases](https://github.com/ughrima/VisionX/releases/latest)
+
+
 
