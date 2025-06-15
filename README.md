@@ -90,5 +90,13 @@ D ==>  E[Shaders apply fast color effects]
 
 [Download VisionX APK from GitHub Releases](https://github.com/ughrima/VisionX/releases/latest)
 
+## Some References 
+
+- [Android Developers Documentation](https://developer.android.com/docs)
+- [Android NDK](https://developer.android.com/ndk)
+- [GLSurfaceView & OpenGL ES](https://developer.android.com/reference/android/opengl/GLSurfaceView) 
+- [CMake for Android](https://developer.android.com/studio/projects/install-ndk#cmake)
+- [Mermaid JS](https://mermaid.js.org/)
+
 
 
