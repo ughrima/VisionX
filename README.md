@@ -15,7 +15,21 @@
 - **FPS counter** — Shows how fast the frames are processed at the bottom.
 
 
-## Live Demo
+## Screenshots
+Here’s VisionX in action:
+
+| Raw Mode | Grayscale | Canny Edge Detection |
+|----------|-----------|---------------------|
+| ![Raw](https://github.com/user-attachments/assets/1fc67527-0116-4525-9bb7-e665761093d1) | ![Grayscale](https://github.com/user-attachments/assets/995925bf-d4db-4be1-a4ab-1cc90aca9d9e) | ![Canny](https://github.com/user-attachments/assets/71fe3fef-52a0-4740-9c74-ee4c55bf1bb1) |
+
+| Invert | Blur | Threshold |
+|--------|-------|-----------|
+| ![Invert](https://github.com/user-attachments/assets/4a8dcda5-7b45-4b5d-a375-fdea4049cbd1) | ![Blur](https://github.com/user-attachments/assets/61e6b3df-7e79-4750-883d-61fd4bdd91ed) | ![Threshold](https://github.com/user-attachments/assets/b030c138-2c37-41a6-abd7-3f522017e7ff) |
+
+
+
+## Live Demo 
+
 
 ## Setup
 
