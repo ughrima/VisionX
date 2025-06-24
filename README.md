@@ -15,7 +15,7 @@
 - **FPS counter** — Shows how fast the frames are processed at the bottom.
 
 
-## Screenshots
+## Preview
 
 | Raw Mode | Grayscale | Canny Edge Detection |
 |----------|-----------|---------------------|
